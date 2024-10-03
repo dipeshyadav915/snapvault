@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $username = "root";
-$password = "1234";
+$password = "";
 $database = "snapvault";
 $conn =  mysqli_connect($host, $username, $password, $database);
 if (!$conn) {
